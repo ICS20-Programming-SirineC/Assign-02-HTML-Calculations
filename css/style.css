@@ -1,0 +1,26 @@
+/* Created by: Sirine Cherkaoui
+* Created on: Mar 2022
+* This CSS file defines the style for index.html
+* Assign-02-HTML-Calculations
+*/
+
+/* Center the content */
+.mdl-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#FAEDE4;
+}
+
+/* Change the title color and center it */
+.mdl-layout-title {
+  color: rgb(250,237,228);
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Change the text input color to purple */
+.mdl-textfield__input {
+  color: hsl(18,100%,50%);
+}
